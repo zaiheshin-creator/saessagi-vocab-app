@@ -4,8 +4,11 @@ import units from '../data/units.json';
 
 const STORAGE_KEY = 'saessagi_progress';
 
-// 학년군별 일일 목표 단어 수 (02_학습목표.md 기준)
-const DAILY_COUNT = { Lv1: 5, Lv2: 6, Lv3: 7, Lv4: 8 };
+// 일일 학습 단어 수 기본값. 예전엔 레벨별로 5~8개씩 자동 조절했지만(02_학습목표.md),
+// 마이페이지에서 사용자가 직접 설정할 수 있게 되면서 고정 기본값 + 사용자 설정으로 단순화했다.
+const DEFAULT_DAILY_GOAL = 10;
+const MIN_DAILY_GOAL = 3;
+const MAX_DAILY_GOAL = 30;
 
 function todayStr() {
   return new Date().toISOString().slice(0, 10);
@@ -20,12 +23,11 @@ function addDays(dateStr, days) {
 // 라이트너 간격반복: 오답(hard) → 1일 뒤로 리셋, 정답(easy) → 다음 단계로 진급, 7일 통과하면 큐에서 졸업
 const REVIEW_INTERVALS = [1, 3, 7];
 
-function computeTodayBatch(completedWordNos) {
+function computeTodayBatch(completedWordNos, dailyGoal) {
   const completedSet = new Set(completedWordNos);
   const remaining = curriculum.filter((w) => !completedSet.has(w.no));
   if (remaining.length === 0) return [];
-  const count = DAILY_COUNT[remaining[0].level] || 5;
-  return remaining.slice(0, count).map((w) => w.no);
+  return remaining.slice(0, dailyGoal || DEFAULT_DAILY_GOAL).map((w) => w.no);
 }
 
 function loadProgress() {
@@ -39,17 +41,19 @@ function loadProgress() {
   // 예전 데이터 구조(completedWordNos 없이 학습앱을 썼던 경우)로부터도 안전하게 복구
   const saved = raw && Array.isArray(raw.completedWordNos) ? raw : null;
   if (!saved) {
-    const base = { streak: raw?.streak ?? 0, hearts: 3, totalExp: raw?.totalExp ?? 0, completedWordNos: [], badges: raw?.badges ?? [], reviewQueue: raw?.reviewQueue ?? [] };
-    return { ...base, lastActiveDate: today, todayBatch: computeTodayBatch(base.completedWordNos), todayFlipped: [], testDoneToday: false, lastResult: null };
+    const dailyGoal = DEFAULT_DAILY_GOAL;
+    const base = { streak: raw?.streak ?? 0, hearts: 3, totalExp: raw?.totalExp ?? 0, completedWordNos: [], badges: raw?.badges ?? [], reviewQueue: raw?.reviewQueue ?? [], dailyGoal };
+    return { ...base, lastActiveDate: today, todayBatch: computeTodayBatch(base.completedWordNos, dailyGoal), todayFlipped: [], testDoneToday: false, lastResult: null };
   }
   if (!Array.isArray(saved.reviewQueue)) saved.reviewQueue = [];
+  if (!saved.dailyGoal) saved.dailyGoal = DEFAULT_DAILY_GOAL;
   if (saved.lastActiveDate !== today) {
     // 새 날: 오늘 진도만 초기화, 하트 회복. 완료 단어(completedWordNos)는 계속 누적 유지
     return {
       ...saved,
       lastActiveDate: today,
       hearts: 3,
-      todayBatch: computeTodayBatch(saved.completedWordNos),
+      todayBatch: computeTodayBatch(saved.completedWordNos, saved.dailyGoal),
       todayFlipped: [],
       testDoneToday: false,
       lastResult: null,
@@ -59,10 +63,10 @@ function loadProgress() {
 }
 
 function saveProgress(state) {
-  const { lastActiveDate, streak, hearts, totalExp, completedWordNos, todayBatch, todayFlipped, testDoneToday, lastResult, badges, reviewQueue } = state;
+  const { lastActiveDate, streak, hearts, totalExp, completedWordNos, todayBatch, todayFlipped, testDoneToday, lastResult, badges, reviewQueue, dailyGoal } = state;
   localStorage.setItem(
     STORAGE_KEY,
-    JSON.stringify({ lastActiveDate, streak, hearts, totalExp, completedWordNos, todayBatch, todayFlipped, testDoneToday, lastResult, badges, reviewQueue })
+    JSON.stringify({ lastActiveDate, streak, hearts, totalExp, completedWordNos, todayBatch, todayFlipped, testDoneToday, lastResult, badges, reviewQueue, dailyGoal })
   );
 }
 
@@ -71,6 +75,18 @@ export const useStore = create((set, get) => ({
   setActiveScreen: (screen) => set({ activeScreen: screen }),
 
   ...loadProgress(),
+
+  // 마이페이지 설정에서 호출. 오늘 학습을 아직 시작 안 했으면(카드를 한 장도 안 넘겼으면) 오늘 배치에도
+  // 바로 반영하고, 이미 학습 중/완료했으면 오늘 진행 중인 배치는 그대로 두고 내일부터 새 목표치를 적용한다.
+  setDailyGoal: (n) => {
+    const dailyGoal = Math.max(MIN_DAILY_GOAL, Math.min(MAX_DAILY_GOAL, Math.round(n) || DEFAULT_DAILY_GOAL));
+    const patch = { dailyGoal };
+    if (get().todayFlipped.length === 0 && !get().testDoneToday) {
+      patch.todayBatch = computeTodayBatch(get().completedWordNos, dailyGoal);
+    }
+    set(patch);
+    saveProgress(get());
+  },
 
   markWordFlipped: (wordNo) => {
     const todayFlipped = get().todayFlipped.includes(wordNo) ? get().todayFlipped : [...get().todayFlipped, wordNo];
@@ -158,6 +174,8 @@ export function getCurriculumProgress(completedWordNos) {
 
 // 유닛별 단어 목록을 completedWordNos와 비교해, 유닛의 모든 단어를 다 배운 unitId 목록을 돌려준다.
 // 마이페이지 배지함이 이 함수의 결과(또는 store의 badges 누적값)를 그대로 표시한다 — 가짜 데이터 없음.
+export const DAILY_GOAL_BOUNDS = { min: MIN_DAILY_GOAL, max: MAX_DAILY_GOAL };
+
 export function getEarnedBadgeUnitIds(completedWordNos) {
   const completedSet = new Set(completedWordNos);
   const byUnit = {};

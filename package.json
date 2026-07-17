@@ -9,9 +9,11 @@
     "data:words": "node scripts/build_words.js",
     "data:curriculum": "node scripts/build_curriculum.js",
     "data:all": "npm run data:words && npm run data:curriculum",
-    "gen:icon": "node scripts/gen_icon.js"
+    "gen:icon": "node scripts/gen_icon.js",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "type": "module",
+  "homepage": "https://zaiheshin-creator.github.io/saessagi-vocab-app",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.1",
+    "gh-pages": "^6.3.0",
     "sharp": "^0.34.5",
     "vite": "^8.0.3"
   }
