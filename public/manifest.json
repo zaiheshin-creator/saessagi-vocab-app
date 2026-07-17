@@ -1,15 +1,21 @@
 {
+  "id": "/saessagi-vocab-app/",
   "name": "새싹이와 오늘의 단어",
   "short_name": "새싹이 영단어",
-  "description": "초등학생을 위한 오프라인 영단어 학습 PWA",
+  "description": "초등학생을 위한 오프라인 영단어 학습 PWA. 매일 조금씩 800단어를 배우고, 게임으로 복습해요.",
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#F4F9F5",
   "theme_color": "#3FAE68",
   "lang": "ko",
+  "dir": "ltr",
+  "categories": ["education", "kids"],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
