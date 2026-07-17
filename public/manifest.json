@@ -1,0 +1,15 @@
+{
+  "name": "새싹이와 오늘의 단어",
+  "short_name": "새싹이 영단어",
+  "description": "초등학생을 위한 오프라인 영단어 학습 PWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F9F5",
+  "theme_color": "#3FAE68",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

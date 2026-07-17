@@ -1,0 +1,5602 @@
+[
+  {
+    "no": 1,
+    "en": "a, an",
+    "kr": "하나의",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 330,
+    "en": "I",
+    "kr": "나",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 29,
+    "en": "as",
+    "kr": "~같은/~로서",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 31,
+    "en": "at",
+    "kr": "~에",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 47,
+    "en": "be",
+    "kr": "~이다",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 94,
+    "en": "by",
+    "kr": "~옆에",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 180,
+    "en": "do",
+    "kr": "하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 272,
+    "en": "go",
+    "kr": "가다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 298,
+    "en": "he",
+    "kr": "그/남자",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 307,
+    "en": "hi",
+    "kr": "안녕하세요",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 333,
+    "en": "if",
+    "kr": "만약",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 335,
+    "en": "in",
+    "kr": "~속",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 341,
+    "en": "it",
+    "kr": "그것",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 448,
+    "en": "no",
+    "kr": "아니다/없다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 458,
+    "en": "of",
+    "kr": "~의",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 462,
+    "en": "oh",
+    "kr": "오",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 466,
+    "en": "on",
+    "kr": "~위에",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 470,
+    "en": "or",
+    "kr": "또는",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 612,
+    "en": "so",
+    "kr": "그와같은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 710,
+    "en": "to",
+    "kr": "~으로/~까지",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 737,
+    "en": "up",
+    "kr": "위에",
+    "level": "Lv1",
+    "category": "방향_위치"
+  },
+  {
+    "no": 759,
+    "en": "we",
+    "kr": "우리",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 4,
+    "en": "act",
+    "kr": "행동",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 10,
+    "en": "age",
+    "kr": "나이",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 11,
+    "en": "ago",
+    "kr": "~전에",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 12,
+    "en": "air",
+    "kr": "공기",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 15,
+    "en": "all",
+    "kr": "모두",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 19,
+    "en": "and",
+    "kr": "그리고",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 23,
+    "en": "any",
+    "kr": "어떤",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 26,
+    "en": "arm",
+    "kr": "팔",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 30,
+    "en": "ask",
+    "kr": "묻다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 37,
+    "en": "bad",
+    "kr": "나쁜",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 38,
+    "en": "bag",
+    "kr": "가방",
+    "level": "Lv1",
+    "category": "학교_물건"
+  },
+  {
+    "no": 53,
+    "en": "bed",
+    "kr": "침대",
+    "level": "Lv1",
+    "category": "집_가구"
+  },
+  {
+    "no": 63,
+    "en": "big",
+    "kr": "큰",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 75,
+    "en": "box",
+    "kr": "상자",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 76,
+    "en": "boy",
+    "kr": "소년",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 88,
+    "en": "bus",
+    "kr": "버스",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 90,
+    "en": "but",
+    "kr": "그러나",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 93,
+    "en": "buy",
+    "kr": "사다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 95,
+    "en": "bye",
+    "kr": "안녕",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 101,
+    "en": "can",
+    "kr": "할수있다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 104,
+    "en": "cap",
+    "kr": "모자",
+    "level": "Lv1",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 107,
+    "en": "car",
+    "kr": "자동차",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 113,
+    "en": "cat",
+    "kr": "고양이",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 154,
+    "en": "cow",
+    "kr": "암소",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 158,
+    "en": "cry",
+    "kr": "울다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 159,
+    "en": "cup",
+    "kr": "컵",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 161,
+    "en": "cut",
+    "kr": "자르다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 162,
+    "en": "dad(dy)",
+    "kr": "아빠/아버지",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 168,
+    "en": "day",
+    "kr": "낮/하루",
+    "level": "Lv1",
+    "category": "시간"
+  },
+  {
+    "no": 176,
+    "en": "die",
+    "kr": "죽다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 182,
+    "en": "dog",
+    "kr": "개",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 195,
+    "en": "dry",
+    "kr": "마른",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 197,
+    "en": "ear",
+    "kr": "귀",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 202,
+    "en": "eat",
+    "kr": "먹다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 203,
+    "en": "egg",
+    "kr": "계란",
+    "level": "Lv1",
+    "category": "음식"
+  },
+  {
+    "no": 205,
+    "en": "end",
+    "kr": "끝",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 217,
+    "en": "eye",
+    "kr": "눈",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 223,
+    "en": "far",
+    "kr": "멀리떨어진",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 226,
+    "en": "fat",
+    "kr": "살찐",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 230,
+    "en": "few",
+    "kr": "다소양이적은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 241,
+    "en": "fix",
+    "kr": "고정시키다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 245,
+    "en": "fly",
+    "kr": "날다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 250,
+    "en": "for",
+    "kr": "~을 위하여/~동안",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 260,
+    "en": "fun",
+    "kr": "즐거움",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 263,
+    "en": "gas",
+    "kr": "가스/휘발유",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 266,
+    "en": "get",
+    "kr": "얻다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 273,
+    "en": "god(GOD)",
+    "kr": "신/하나님",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 295,
+    "en": "hat",
+    "kr": "모자",
+    "level": "Lv1",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 305,
+    "en": "hen",
+    "kr": "암닭",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 312,
+    "en": "hit",
+    "kr": "때리다",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 321,
+    "en": "hot",
+    "kr": "뜨거운",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 325,
+    "en": "how",
+    "kr": "어떻게",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 331,
+    "en": "ice",
+    "kr": "얼음",
+    "level": "Lv1",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 334,
+    "en": "ill",
+    "kr": "병든",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 336,
+    "en": "ink",
+    "kr": "잉크",
+    "level": "Lv1",
+    "category": "학교_물건"
+  },
+  {
+    "no": 342,
+    "en": "job",
+    "kr": "직업",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 349,
+    "en": "key",
+    "kr": "열쇠",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 351,
+    "en": "kid",
+    "kr": "아이",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 373,
+    "en": "leg",
+    "kr": "다리",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 375,
+    "en": "let",
+    "kr": "허락하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 378,
+    "en": "lie",
+    "kr": "눕다/거짓말하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 383,
+    "en": "lip",
+    "kr": "입술",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 391,
+    "en": "lot",
+    "kr": "많음",
+    "level": "Lv1",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 394,
+    "en": "low",
+    "kr": "낮은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 398,
+    "en": "mad",
+    "kr": "미친",
+    "level": "Lv1",
+    "category": "감정_상태"
+  },
+  {
+    "no": 401,
+    "en": "man",
+    "kr": "사람/남자",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 403,
+    "en": "map",
+    "kr": "지도",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 408,
+    "en": "may",
+    "kr": "~해도좋다/5월",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 421,
+    "en": "mom(my)",
+    "kr": "엄마",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 432,
+    "en": "Mr.",
+    "kr": "~씨",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 443,
+    "en": "new",
+    "kr": "새로운",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 452,
+    "en": "not",
+    "kr": "아니다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 454,
+    "en": "now",
+    "kr": "지금",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 459,
+    "en": "off",
+    "kr": "떨어진/끄다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 463,
+    "en": "oil",
+    "kr": "기름",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 465,
+    "en": "old",
+    "kr": "늙은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 473,
+    "en": "out",
+    "kr": "밖에",
+    "level": "Lv1",
+    "category": "방향_위치"
+  },
+  {
+    "no": 485,
+    "en": "pay",
+    "kr": "지불하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 488,
+    "en": "pen",
+    "kr": "펜/만년필",
+    "level": "Lv1",
+    "category": "학교_물건"
+  },
+  {
+    "no": 496,
+    "en": "pig",
+    "kr": "돼지",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 498,
+    "en": "pin",
+    "kr": "핀",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 523,
+    "en": "put",
+    "kr": "놓다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 535,
+    "en": "red",
+    "kr": "빨강",
+    "level": "Lv1",
+    "category": "색깔"
+  },
+  {
+    "no": 558,
+    "en": "run",
+    "kr": "달리다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 559,
+    "en": "sad",
+    "kr": "슬픈",
+    "level": "Lv1",
+    "category": "감정_상태"
+  },
+  {
+    "no": 565,
+    "en": "say",
+    "kr": "말하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 568,
+    "en": "sea",
+    "kr": "바다",
+    "level": "Lv1",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 571,
+    "en": "see",
+    "kr": "보다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 575,
+    "en": "set",
+    "kr": "놓다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 578,
+    "en": "she",
+    "kr": "그녀",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 597,
+    "en": "sir",
+    "kr": "~님/~씨",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 599,
+    "en": "sit",
+    "kr": "앉다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 603,
+    "en": "sky",
+    "kr": "하늘",
+    "level": "Lv1",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 618,
+    "en": "son",
+    "kr": "아들",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 662,
+    "en": "sun",
+    "kr": "태양",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 679,
+    "en": "tea",
+    "kr": "차",
+    "level": "Lv1",
+    "category": "음식"
+  },
+  {
+    "no": 691,
+    "en": "the",
+    "kr": "그(정관사)",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 705,
+    "en": "tie",
+    "kr": "매다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 716,
+    "en": "too",
+    "kr": "또한/많은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 718,
+    "en": "top",
+    "kr": "꼭대기",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 721,
+    "en": "toy",
+    "kr": "장난감",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 728,
+    "en": "try",
+    "kr": "노력/시도하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 738,
+    "en": "use",
+    "kr": "사용하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 752,
+    "en": "war",
+    "kr": "전쟁",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 758,
+    "en": "way",
+    "kr": "길",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 767,
+    "en": "wet",
+    "kr": "젖은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 773,
+    "en": "who",
+    "kr": "누구(의문사)",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 774,
+    "en": "why",
+    "kr": "왜(의문사)",
+    "level": "Lv1",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 777,
+    "en": "win",
+    "kr": "이기다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 794,
+    "en": "yes",
+    "kr": "네(대답)",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 796,
+    "en": "yet",
+    "kr": "아직",
+    "level": "Lv1",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 797,
+    "en": "you",
+    "kr": "당신",
+    "level": "Lv1",
+    "category": "대명사"
+  },
+  {
+    "no": 800,
+    "en": "zoo",
+    "kr": "동물원",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 32,
+    "en": "aunt",
+    "kr": "이모/고모",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 34,
+    "en": "away",
+    "kr": "떨어져",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 35,
+    "en": "baby",
+    "kr": "아기",
+    "level": "Lv1",
+    "category": "가족_사람"
+  },
+  {
+    "no": 36,
+    "en": "back",
+    "kr": "뒤에",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 39,
+    "en": "ball",
+    "kr": "공",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 42,
+    "en": "band",
+    "kr": "끈/악단",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 43,
+    "en": "bank",
+    "kr": "은행",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 44,
+    "en": "base",
+    "kr": "기초",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 46,
+    "en": "bath",
+    "kr": "목욕",
+    "level": "Lv1",
+    "category": "집_가구"
+  },
+  {
+    "no": 49,
+    "en": "bear",
+    "kr": "곰",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 57,
+    "en": "bell",
+    "kr": "종",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 64,
+    "en": "bird",
+    "kr": "새",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 67,
+    "en": "blow",
+    "kr": "불다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 68,
+    "en": "blue",
+    "kr": "푸른",
+    "level": "Lv1",
+    "category": "색깔"
+  },
+  {
+    "no": 70,
+    "en": "boat",
+    "kr": "배",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 71,
+    "en": "body",
+    "kr": "몸",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 72,
+    "en": "book",
+    "kr": "책",
+    "level": "Lv1",
+    "category": "학교_물건"
+  },
+  {
+    "no": 74,
+    "en": "bowl",
+    "kr": "사발",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 87,
+    "en": "burn",
+    "kr": "불타다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 89,
+    "en": "busy",
+    "kr": "바쁜",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 97,
+    "en": "cake",
+    "kr": "케이크",
+    "level": "Lv1",
+    "category": "음식"
+  },
+  {
+    "no": 98,
+    "en": "call",
+    "kr": "부르다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 100,
+    "en": "camp",
+    "kr": "야영지",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 108,
+    "en": "card",
+    "kr": "카드",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 109,
+    "en": "care",
+    "kr": "걱정/돌보다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 111,
+    "en": "case",
+    "kr": "경우",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 128,
+    "en": "city",
+    "kr": "도시",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 137,
+    "en": "club",
+    "kr": "클럽",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 138,
+    "en": "coat",
+    "kr": "코트",
+    "level": "Lv1",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 140,
+    "en": "coin",
+    "kr": "동전",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 141,
+    "en": "cold",
+    "kr": "추운",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 143,
+    "en": "come",
+    "kr": "오다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 145,
+    "en": "cook",
+    "kr": "요리하다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 146,
+    "en": "cool",
+    "kr": "시원한",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 147,
+    "en": "copy",
+    "kr": "사본/베끼다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 165,
+    "en": "dark",
+    "kr": "어두운",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 166,
+    "en": "date",
+    "kr": "날짜",
+    "level": "Lv1",
+    "category": "시간"
+  },
+  {
+    "no": 169,
+    "en": "dead",
+    "kr": "죽은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 170,
+    "en": "deep",
+    "kr": "깊은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 171,
+    "en": "dear",
+    "kr": "존경하는",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 172,
+    "en": "desk",
+    "kr": "책상",
+    "level": "Lv1",
+    "category": "학교_물건"
+  },
+  {
+    "no": 173,
+    "en": "dial",
+    "kr": "다이얼",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 179,
+    "en": "dish",
+    "kr": "큰접시",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 183,
+    "en": "doll",
+    "kr": "인형",
+    "level": "Lv1",
+    "category": "사물_도구"
+  },
+  {
+    "no": 186,
+    "en": "door",
+    "kr": "문",
+    "level": "Lv1",
+    "category": "집_가구"
+  },
+  {
+    "no": 187,
+    "en": "down",
+    "kr": "아래에",
+    "level": "Lv1",
+    "category": "방향_위치"
+  },
+  {
+    "no": 188,
+    "en": "draw",
+    "kr": "그리다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 193,
+    "en": "drop",
+    "kr": "떨어지다/방울",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 194,
+    "en": "drum",
+    "kr": "북",
+    "level": "Lv1",
+    "category": "취미_예술"
+  },
+  {
+    "no": 196,
+    "en": "duck",
+    "kr": "오리",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 200,
+    "en": "east",
+    "kr": "동쪽",
+    "level": "Lv1",
+    "category": "방향_위치"
+  },
+  {
+    "no": 201,
+    "en": "easy",
+    "kr": "쉬운",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 218,
+    "en": "face",
+    "kr": "얼굴",
+    "level": "Lv1",
+    "category": "신체"
+  },
+  {
+    "no": 219,
+    "en": "fact",
+    "kr": "사실",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 220,
+    "en": "fair",
+    "kr": "공정한",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 221,
+    "en": "fall",
+    "kr": "가을/떨어지다",
+    "level": "Lv1",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 224,
+    "en": "farm",
+    "kr": "농장",
+    "level": "Lv1",
+    "category": "교통_장소"
+  },
+  {
+    "no": 225,
+    "en": "fast",
+    "kr": "빠른",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 229,
+    "en": "feel",
+    "kr": "느끼다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 233,
+    "en": "fill",
+    "kr": "채우다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 234,
+    "en": "film",
+    "kr": "필름",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 235,
+    "en": "find",
+    "kr": "찾다",
+    "level": "Lv1",
+    "category": "일반동사"
+  },
+  {
+    "no": 236,
+    "en": "fine",
+    "kr": "좋은/맑은",
+    "level": "Lv1",
+    "category": "일반형용사"
+  },
+  {
+    "no": 239,
+    "en": "fire",
+    "kr": "불",
+    "level": "Lv1",
+    "category": "기타"
+  },
+  {
+    "no": 240,
+    "en": "fish",
+    "kr": "고기/낚시하다",
+    "level": "Lv1",
+    "category": "동물"
+  },
+  {
+    "no": 242,
+    "en": "flag",
+    "kr": "깃발",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 247,
+    "en": "food",
+    "kr": "음식",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 248,
+    "en": "fool",
+    "kr": "바보",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 249,
+    "en": "foot",
+    "kr": "발",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 252,
+    "en": "fork",
+    "kr": "포크",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 253,
+    "en": "free",
+    "kr": "자유로운",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 256,
+    "en": "from",
+    "kr": "~로부터",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 259,
+    "en": "full",
+    "kr": "가득찬",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 261,
+    "en": "game",
+    "kr": "놀이",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 264,
+    "en": "gate",
+    "kr": "문",
+    "level": "Lv2",
+    "category": "집_가구"
+  },
+  {
+    "no": 267,
+    "en": "girl",
+    "kr": "소녀",
+    "level": "Lv2",
+    "category": "가족_사람"
+  },
+  {
+    "no": 268,
+    "en": "give",
+    "kr": "주다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 269,
+    "en": "glad",
+    "kr": "기쁜",
+    "level": "Lv2",
+    "category": "감정_상태"
+  },
+  {
+    "no": 274,
+    "en": "gold",
+    "kr": "금",
+    "level": "Lv2",
+    "category": "색깔"
+  },
+  {
+    "no": 275,
+    "en": "good",
+    "kr": "좋은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 279,
+    "en": "gray",
+    "kr": "회색",
+    "level": "Lv2",
+    "category": "색깔"
+  },
+  {
+    "no": 284,
+    "en": "grow",
+    "kr": "성장하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 286,
+    "en": "hair",
+    "kr": "머리카락",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 287,
+    "en": "half",
+    "kr": "절반",
+    "level": "Lv2",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 288,
+    "en": "hall",
+    "kr": "회관/넓은방",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 290,
+    "en": "hand",
+    "kr": "손",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 294,
+    "en": "hard",
+    "kr": "단단한/열심히",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 296,
+    "en": "hate",
+    "kr": "미워하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 297,
+    "en": "have",
+    "kr": "가지고있다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 299,
+    "en": "head",
+    "kr": "머리",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 300,
+    "en": "hear",
+    "kr": "듣다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 304,
+    "en": "help",
+    "kr": "돕다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 306,
+    "en": "here",
+    "kr": "여기에서",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 308,
+    "en": "hide",
+    "kr": "숨기다",
+    "level": "Lv2",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 309,
+    "en": "high",
+    "kr": "높은",
+    "level": "Lv2",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 311,
+    "en": "hill",
+    "kr": "언덕",
+    "level": "Lv2",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 313,
+    "en": "hold",
+    "kr": "잡다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 314,
+    "en": "hole",
+    "kr": "구멍",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 316,
+    "en": "home",
+    "kr": "집",
+    "level": "Lv2",
+    "category": "집_가구"
+  },
+  {
+    "no": 317,
+    "en": "hope",
+    "kr": "희망",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 318,
+    "en": "hose",
+    "kr": "호스",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 323,
+    "en": "hour",
+    "kr": "시간",
+    "level": "Lv2",
+    "category": "시간"
+  },
+  {
+    "no": 329,
+    "en": "hurt",
+    "kr": "다치게하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 332,
+    "en": "idea",
+    "kr": "생각",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 338,
+    "en": "into",
+    "kr": "~속으로",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 343,
+    "en": "join",
+    "kr": "가입하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 345,
+    "en": "jump",
+    "kr": "뛰어오르다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 347,
+    "en": "just",
+    "kr": "오직/겨우",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 348,
+    "en": "keep",
+    "kr": "지키다/유지하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 350,
+    "en": "kick",
+    "kr": "차다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 352,
+    "en": "kill",
+    "kr": "죽이다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 353,
+    "en": "kind",
+    "kr": "친절한/종류",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 354,
+    "en": "king",
+    "kr": "왕",
+    "level": "Lv2",
+    "category": "가족_사람"
+  },
+  {
+    "no": 356,
+    "en": "knee",
+    "kr": "무릎",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 359,
+    "en": "know",
+    "kr": "알다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 360,
+    "en": "lady",
+    "kr": "숙녀",
+    "level": "Lv2",
+    "category": "가족_사람"
+  },
+  {
+    "no": 361,
+    "en": "lake",
+    "kr": "호수",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 362,
+    "en": "lamp",
+    "kr": "등불",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 363,
+    "en": "land",
+    "kr": "땅",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 365,
+    "en": "last",
+    "kr": "마지막/최근",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 366,
+    "en": "late",
+    "kr": "늦은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 368,
+    "en": "lead",
+    "kr": "인도하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 369,
+    "en": "leaf",
+    "kr": "잎",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 372,
+    "en": "left",
+    "kr": "왼쪽",
+    "level": "Lv2",
+    "category": "방향_위치"
+  },
+  {
+    "no": 380,
+    "en": "like",
+    "kr": "좋아하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 381,
+    "en": "line",
+    "kr": "선/줄",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 382,
+    "en": "lion",
+    "kr": "사자",
+    "level": "Lv2",
+    "category": "동물"
+  },
+  {
+    "no": 384,
+    "en": "list",
+    "kr": "목록",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 387,
+    "en": "live",
+    "kr": "살다/생생한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 388,
+    "en": "long",
+    "kr": "긴",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 389,
+    "en": "look",
+    "kr": "바라보다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 390,
+    "en": "lose",
+    "kr": "잃다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 392,
+    "en": "loud",
+    "kr": "소리가 큰",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 393,
+    "en": "love",
+    "kr": "사랑하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 395,
+    "en": "luck",
+    "kr": "행운",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 399,
+    "en": "mail",
+    "kr": "우편",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 400,
+    "en": "make",
+    "kr": "만들다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 402,
+    "en": "many",
+    "kr": "많은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 409,
+    "en": "meat",
+    "kr": "고기",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 411,
+    "en": "meet",
+    "kr": "만나다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 415,
+    "en": "milk",
+    "kr": "우유",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 419,
+    "en": "Miss",
+    "kr": "~양/호칭",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 425,
+    "en": "moon",
+    "kr": "달",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 430,
+    "en": "move",
+    "kr": "움직이다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 433,
+    "en": "Mrs.",
+    "kr": "~여사",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 434,
+    "en": "much",
+    "kr": "많은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 436,
+    "en": "must",
+    "kr": "~해야한다",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 437,
+    "en": "name",
+    "kr": "이름",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 439,
+    "en": "near",
+    "kr": "가까운",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 440,
+    "en": "neck",
+    "kr": "목",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 441,
+    "en": "need",
+    "kr": "필요하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 444,
+    "en": "news",
+    "kr": "뉴스",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 445,
+    "en": "next",
+    "kr": "다음의",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 446,
+    "en": "nice",
+    "kr": "좋은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 451,
+    "en": "nose",
+    "kr": "코",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 453,
+    "en": "note",
+    "kr": "공책",
+    "level": "Lv2",
+    "category": "학교_물건"
+  },
+  {
+    "no": 464,
+    "en": "okay(ok)",
+    "kr": "좋아",
+    "level": "Lv2",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 467,
+    "en": "once",
+    "kr": "한번",
+    "level": "Lv2",
+    "category": "시간"
+  },
+  {
+    "no": 468,
+    "en": "only",
+    "kr": "오직",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 469,
+    "en": "open",
+    "kr": "열린",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 474,
+    "en": "over",
+    "kr": "~위쪽에",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 475,
+    "en": "page",
+    "kr": "쪽",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 477,
+    "en": "pair",
+    "kr": "짝",
+    "level": "Lv2",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 482,
+    "en": "park",
+    "kr": "공원",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 484,
+    "en": "pass",
+    "kr": "통과하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 487,
+    "en": "pear",
+    "kr": "배",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 492,
+    "en": "pick",
+    "kr": "따다/골라내다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 499,
+    "en": "pine",
+    "kr": "소나무",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 500,
+    "en": "pink",
+    "kr": "분홍",
+    "level": "Lv2",
+    "category": "색깔"
+  },
+  {
+    "no": 501,
+    "en": "pipe",
+    "kr": "파이프/관",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 503,
+    "en": "plan",
+    "kr": "계획",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 506,
+    "en": "play",
+    "kr": "놀다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 511,
+    "en": "pool",
+    "kr": "웅덩이",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 512,
+    "en": "poor",
+    "kr": "가난한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 513,
+    "en": "post",
+    "kr": "기둥/우편",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 521,
+    "en": "pull",
+    "kr": "끌다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 522,
+    "en": "push",
+    "kr": "밀다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 529,
+    "en": "rain",
+    "kr": "비",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 531,
+    "en": "read",
+    "kr": "읽다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 533,
+    "en": "real",
+    "kr": "실제하는",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 538,
+    "en": "rest",
+    "kr": "휴식",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 542,
+    "en": "rice",
+    "kr": "쌀",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 543,
+    "en": "rich",
+    "kr": "부유한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 544,
+    "en": "ride",
+    "kr": "타다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 546,
+    "en": "ring",
+    "kr": "반지/고리",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 548,
+    "en": "road",
+    "kr": "길",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 550,
+    "en": "rock",
+    "kr": "바위",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 552,
+    "en": "roll",
+    "kr": "구르다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 553,
+    "en": "roof",
+    "kr": "지붕",
+    "level": "Lv2",
+    "category": "집_가구"
+  },
+  {
+    "no": 554,
+    "en": "room",
+    "kr": "방",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 555,
+    "en": "rose",
+    "kr": "장미",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 560,
+    "en": "safe",
+    "kr": "안전한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 561,
+    "en": "salt",
+    "kr": "소금",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 563,
+    "en": "same",
+    "kr": "같은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 564,
+    "en": "sand",
+    "kr": "모래",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 570,
+    "en": "seat",
+    "kr": "의자/좌석",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 572,
+    "en": "sell",
+    "kr": "팔다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 573,
+    "en": "send",
+    "kr": "보내다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 581,
+    "en": "ship",
+    "kr": "배",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 583,
+    "en": "shoe",
+    "kr": "구두",
+    "level": "Lv2",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 585,
+    "en": "shop",
+    "kr": "가게",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 589,
+    "en": "show",
+    "kr": "보이다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 591,
+    "en": "shut",
+    "kr": "닫다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 592,
+    "en": "sick",
+    "kr": "아픈",
+    "level": "Lv2",
+    "category": "감정_상태"
+  },
+  {
+    "no": 593,
+    "en": "side",
+    "kr": "옆/측면",
+    "level": "Lv2",
+    "category": "방향_위치"
+  },
+  {
+    "no": 594,
+    "en": "sign",
+    "kr": "기호/신호",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 596,
+    "en": "sing",
+    "kr": "노래하다",
+    "level": "Lv2",
+    "category": "취미_예술"
+  },
+  {
+    "no": 600,
+    "en": "size",
+    "kr": "크기",
+    "level": "Lv2",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 606,
+    "en": "slow",
+    "kr": "느린",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 611,
+    "en": "snow",
+    "kr": "눈",
+    "level": "Lv2",
+    "category": "신체"
+  },
+  {
+    "no": 613,
+    "en": "soap",
+    "kr": "비누",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 615,
+    "en": "sock",
+    "kr": "양말",
+    "level": "Lv2",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 616,
+    "en": "soft",
+    "kr": "부드러운",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 617,
+    "en": "some",
+    "kr": "약간의",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 619,
+    "en": "song",
+    "kr": "노래",
+    "level": "Lv2",
+    "category": "취미_예술"
+  },
+  {
+    "no": 620,
+    "en": "soon",
+    "kr": "곧",
+    "level": "Lv2",
+    "category": "시간"
+  },
+  {
+    "no": 623,
+    "en": "soup",
+    "kr": "스프",
+    "level": "Lv2",
+    "category": "음식"
+  },
+  {
+    "no": 637,
+    "en": "star",
+    "kr": "별",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 640,
+    "en": "stay",
+    "kr": "머물다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 642,
+    "en": "step",
+    "kr": "한걸음",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 645,
+    "en": "stop",
+    "kr": "멈추다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 665,
+    "en": "sure",
+    "kr": "확실한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 669,
+    "en": "swim",
+    "kr": "수영",
+    "level": "Lv2",
+    "category": "취미_예술"
+  },
+  {
+    "no": 673,
+    "en": "take",
+    "kr": "잡다/가져가다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 674,
+    "en": "talk",
+    "kr": "말하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 675,
+    "en": "tall",
+    "kr": "키가 큰",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 676,
+    "en": "tape",
+    "kr": "테이프",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 678,
+    "en": "taxi",
+    "kr": "택시",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 681,
+    "en": "team",
+    "kr": "팀",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 684,
+    "en": "tell",
+    "kr": "이야기하다",
+    "level": "Lv2",
+    "category": "취미_예술"
+  },
+  {
+    "no": 687,
+    "en": "test",
+    "kr": "시험",
+    "level": "Lv2",
+    "category": "학교_물건"
+  },
+  {
+    "no": 688,
+    "en": "than",
+    "kr": "~보다(도)",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 690,
+    "en": "that",
+    "kr": "그것",
+    "level": "Lv2",
+    "category": "대명사"
+  },
+  {
+    "no": 692,
+    "en": "then",
+    "kr": "그때",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 694,
+    "en": "they",
+    "kr": "그들",
+    "level": "Lv2",
+    "category": "대명사"
+  },
+  {
+    "no": 696,
+    "en": "thin",
+    "kr": "얇은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 700,
+    "en": "this",
+    "kr": "이것",
+    "level": "Lv2",
+    "category": "대명사"
+  },
+  {
+    "no": 707,
+    "en": "till",
+    "kr": "~까지",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 708,
+    "en": "time",
+    "kr": "시간",
+    "level": "Lv2",
+    "category": "시간"
+  },
+  {
+    "no": 720,
+    "en": "town",
+    "kr": "도시",
+    "level": "Lv2",
+    "category": "교통_장소"
+  },
+  {
+    "no": 724,
+    "en": "tree",
+    "kr": "나무",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 725,
+    "en": "trip",
+    "kr": "여행",
+    "level": "Lv2",
+    "category": "취미_예술"
+  },
+  {
+    "no": 727,
+    "en": "true",
+    "kr": "참된/진짜의",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 730,
+    "en": "turn",
+    "kr": "돌다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 742,
+    "en": "very",
+    "kr": "대단히/몹시",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 747,
+    "en": "wait",
+    "kr": "기다리다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 748,
+    "en": "wake",
+    "kr": "잠이깨다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 749,
+    "en": "walk",
+    "kr": "걷다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 750,
+    "en": "wall",
+    "kr": "벽",
+    "level": "Lv2",
+    "category": "집_가구"
+  },
+  {
+    "no": 751,
+    "en": "want",
+    "kr": "원하다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 753,
+    "en": "warm",
+    "kr": "따뜻한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 754,
+    "en": "wash",
+    "kr": "씻다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 760,
+    "en": "weak",
+    "kr": "약한",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 761,
+    "en": "wear",
+    "kr": "옷을입다",
+    "level": "Lv2",
+    "category": "일반동사"
+  },
+  {
+    "no": 763,
+    "en": "week",
+    "kr": "한 주",
+    "level": "Lv2",
+    "category": "시간"
+  },
+  {
+    "no": 765,
+    "en": "well",
+    "kr": "상당히",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 766,
+    "en": "west",
+    "kr": "서쪽",
+    "level": "Lv2",
+    "category": "방향_위치"
+  },
+  {
+    "no": 768,
+    "en": "what",
+    "kr": "무엇(의문사)",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 769,
+    "en": "when",
+    "kr": "언제",
+    "level": "Lv2",
+    "category": "기타"
+  },
+  {
+    "no": 775,
+    "en": "wide",
+    "kr": "넓은",
+    "level": "Lv2",
+    "category": "일반형용사"
+  },
+  {
+    "no": 776,
+    "en": "will",
+    "kr": "~할것이다",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 778,
+    "en": "wind",
+    "kr": "바람",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 780,
+    "en": "wing",
+    "kr": "날개",
+    "level": "Lv2",
+    "category": "사물_도구"
+  },
+  {
+    "no": 782,
+    "en": "with",
+    "kr": "~와함께",
+    "level": "Lv2",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 785,
+    "en": "wood",
+    "kr": "나무",
+    "level": "Lv2",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 786,
+    "en": "word",
+    "kr": "낱말/말",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 787,
+    "en": "work",
+    "kr": "일",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 791,
+    "en": "yeah",
+    "kr": "예(찬성/긍정)",
+    "level": "Lv3",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 792,
+    "en": "year",
+    "kr": "해/1년",
+    "level": "Lv3",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 799,
+    "en": "zero",
+    "kr": "영(0)",
+    "level": "Lv3",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 2,
+    "en": "about",
+    "kr": "~에관하여",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 7,
+    "en": "after",
+    "kr": "~후에",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 9,
+    "en": "again",
+    "kr": "다시",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 14,
+    "en": "album",
+    "kr": "사진첩",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 16,
+    "en": "along",
+    "kr": "~을 따라서",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 18,
+    "en": "among",
+    "kr": "~사이에서",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 20,
+    "en": "angry",
+    "kr": "성난",
+    "level": "Lv3",
+    "category": "감정_상태"
+  },
+  {
+    "no": 25,
+    "en": "apple",
+    "kr": "사과",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 48,
+    "en": "beach",
+    "kr": "해변",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 55,
+    "en": "begin",
+    "kr": "시작하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 58,
+    "en": "below",
+    "kr": "~아래",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 59,
+    "en": "bench",
+    "kr": "긴의자",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 66,
+    "en": "black",
+    "kr": "검정색",
+    "level": "Lv3",
+    "category": "색깔"
+  },
+  {
+    "no": 69,
+    "en": "board",
+    "kr": "판자",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 77,
+    "en": "bread",
+    "kr": "빵",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 78,
+    "en": "break",
+    "kr": "깨뜨리다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 82,
+    "en": "bring",
+    "kr": "가져오다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 84,
+    "en": "brown",
+    "kr": "갈색",
+    "level": "Lv3",
+    "category": "색깔"
+  },
+  {
+    "no": 85,
+    "en": "brush",
+    "kr": "솔",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 86,
+    "en": "build",
+    "kr": "건설하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 103,
+    "en": "candy",
+    "kr": "사탕",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 110,
+    "en": "carry",
+    "kr": "나르다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 114,
+    "en": "catch",
+    "kr": "붙잡다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 117,
+    "en": "chair",
+    "kr": "의자",
+    "level": "Lv3",
+    "category": "학교_물건"
+  },
+  {
+    "no": 118,
+    "en": "chalk",
+    "kr": "분필",
+    "level": "Lv3",
+    "category": "학교_물건"
+  },
+  {
+    "no": 121,
+    "en": "cheap",
+    "kr": "값싼",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 124,
+    "en": "child",
+    "kr": "어린이",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 129,
+    "en": "class",
+    "kr": "학급",
+    "level": "Lv3",
+    "category": "학교_물건"
+  },
+  {
+    "no": 131,
+    "en": "clean",
+    "kr": "깨끗한",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 132,
+    "en": "climb",
+    "kr": "오르다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 133,
+    "en": "clock",
+    "kr": "시계",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 134,
+    "en": "close",
+    "kr": "닫다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 136,
+    "en": "cloud",
+    "kr": "구름",
+    "level": "Lv3",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 142,
+    "en": "color",
+    "kr": "색깔",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 149,
+    "en": "count",
+    "kr": "세다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 153,
+    "en": "cover",
+    "kr": "덮다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 156,
+    "en": "cream",
+    "kr": "크림",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 157,
+    "en": "cross",
+    "kr": "가로지르다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 163,
+    "en": "dance",
+    "kr": "춤추다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 174,
+    "en": "diary",
+    "kr": "일기",
+    "level": "Lv3",
+    "category": "학교_물건"
+  },
+  {
+    "no": 178,
+    "en": "dirty",
+    "kr": "더러운",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 189,
+    "en": "dream",
+    "kr": "꿈",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 190,
+    "en": "dress",
+    "kr": "드레스",
+    "level": "Lv3",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 191,
+    "en": "drink",
+    "kr": "마시다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 192,
+    "en": "drive",
+    "kr": "운전하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 198,
+    "en": "early",
+    "kr": "일찍",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 199,
+    "en": "earth",
+    "kr": "지구",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 204,
+    "en": "empty",
+    "kr": "텅빈",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 207,
+    "en": "enjoy",
+    "kr": "즐기다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 211,
+    "en": "every",
+    "kr": "모든/모두의",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 231,
+    "en": "field",
+    "kr": "들판/경기장",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 232,
+    "en": "fight",
+    "kr": "싸움",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 243,
+    "en": "floor",
+    "kr": "마루",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 254,
+    "en": "fresh",
+    "kr": "신선한",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 257,
+    "en": "front",
+    "kr": "앞/정면",
+    "level": "Lv3",
+    "category": "방향_위치"
+  },
+  {
+    "no": 258,
+    "en": "fruit",
+    "kr": "과일",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 270,
+    "en": "glass",
+    "kr": "유리/컵",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 271,
+    "en": "glove",
+    "kr": "장갑",
+    "level": "Lv3",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 277,
+    "en": "grape",
+    "kr": "포도",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 278,
+    "en": "grass",
+    "kr": "풀/잔디",
+    "level": "Lv3",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 280,
+    "en": "great",
+    "kr": "큰",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 281,
+    "en": "green",
+    "kr": "녹색",
+    "level": "Lv3",
+    "category": "색깔"
+  },
+  {
+    "no": 283,
+    "en": "group",
+    "kr": "단체",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 293,
+    "en": "happy",
+    "kr": "행복한",
+    "level": "Lv3",
+    "category": "감정_상태"
+  },
+  {
+    "no": 301,
+    "en": "heart",
+    "kr": "마음/상징",
+    "level": "Lv3",
+    "category": "신체"
+  },
+  {
+    "no": 302,
+    "en": "heavy",
+    "kr": "무거운",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 303,
+    "en": "hello",
+    "kr": "여보세요",
+    "level": "Lv3",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 319,
+    "en": "horse",
+    "kr": "말",
+    "level": "Lv3",
+    "category": "동물"
+  },
+  {
+    "no": 322,
+    "en": "hotel",
+    "kr": "호텔",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 324,
+    "en": "house",
+    "kr": "집",
+    "level": "Lv3",
+    "category": "집_가구"
+  },
+  {
+    "no": 328,
+    "en": "hurry",
+    "kr": "서두르다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 344,
+    "en": "juice",
+    "kr": "주스",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 357,
+    "en": "knife",
+    "kr": "칼",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 358,
+    "en": "knock",
+    "kr": "두드리다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 364,
+    "en": "large",
+    "kr": "큰/넓은",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 367,
+    "en": "laugh",
+    "kr": "웃다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 370,
+    "en": "learn",
+    "kr": "배우다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 371,
+    "en": "leave",
+    "kr": "떠나다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 379,
+    "en": "light",
+    "kr": "빛",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 396,
+    "en": "lunch",
+    "kr": "점심식사",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 397,
+    "en": "ma'am",
+    "kr": "아주머니",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 404,
+    "en": "march",
+    "kr": "행진/3월",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 406,
+    "en": "marry",
+    "kr": "결혼하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 410,
+    "en": "medal",
+    "kr": "메달",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 412,
+    "en": "melon",
+    "kr": "멜론",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 413,
+    "en": "meter",
+    "kr": "미터",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 420,
+    "en": "model",
+    "kr": "모형",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 422,
+    "en": "money",
+    "kr": "돈",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 424,
+    "en": "month",
+    "kr": "달/개월",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 429,
+    "en": "mouth",
+    "kr": "입",
+    "level": "Lv3",
+    "category": "신체"
+  },
+  {
+    "no": 431,
+    "en": "movie",
+    "kr": "영화",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 435,
+    "en": "music",
+    "kr": "음악",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 442,
+    "en": "never",
+    "kr": "결코~않다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 447,
+    "en": "night",
+    "kr": "밤",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 449,
+    "en": "noise",
+    "kr": "소음",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 450,
+    "en": "north",
+    "kr": "북쪽",
+    "level": "Lv3",
+    "category": "방향_위치"
+  },
+  {
+    "no": 456,
+    "en": "nurse",
+    "kr": "간호원",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 461,
+    "en": "often",
+    "kr": "흔히/종종",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 472,
+    "en": "other",
+    "kr": "그밖의",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 476,
+    "en": "paint",
+    "kr": "칠하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 478,
+    "en": "pants",
+    "kr": "바지",
+    "level": "Lv3",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 479,
+    "en": "paper",
+    "kr": "종이",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 483,
+    "en": "party",
+    "kr": "파티",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 486,
+    "en": "peace",
+    "kr": "평화",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 491,
+    "en": "piano",
+    "kr": "피아노",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 495,
+    "en": "piece",
+    "kr": "조각",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 497,
+    "en": "pilot",
+    "kr": "조종사",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 502,
+    "en": "place",
+    "kr": "장소",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 504,
+    "en": "plane",
+    "kr": "비행기",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 505,
+    "en": "plant",
+    "kr": "식물",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 509,
+    "en": "point",
+    "kr": "점수/요점",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 519,
+    "en": "print",
+    "kr": "인쇄하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 524,
+    "en": "queen",
+    "kr": "여왕",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 526,
+    "en": "quick",
+    "kr": "빠른",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 527,
+    "en": "quiet",
+    "kr": "조용한",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 528,
+    "en": "radio",
+    "kr": "라디오",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 532,
+    "en": "ready",
+    "kr": "준비가 된",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 545,
+    "en": "right",
+    "kr": "오른쪽/옳은",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 547,
+    "en": "river",
+    "kr": "강",
+    "level": "Lv3",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 549,
+    "en": "robot",
+    "kr": "로보트",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 556,
+    "en": "round",
+    "kr": "둥근",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 557,
+    "en": "ruler",
+    "kr": "자",
+    "level": "Lv3",
+    "category": "학교_물건"
+  },
+  {
+    "no": 562,
+    "en": "salad",
+    "kr": "샐러드",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 567,
+    "en": "score",
+    "kr": "점수",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 576,
+    "en": "shall",
+    "kr": "~일것이다",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 577,
+    "en": "shape",
+    "kr": "모양",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 579,
+    "en": "sheep",
+    "kr": "양",
+    "level": "Lv3",
+    "category": "동물"
+  },
+  {
+    "no": 580,
+    "en": "sheet",
+    "kr": "시트/한장",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 582,
+    "en": "shirt",
+    "kr": "셔츠",
+    "level": "Lv3",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 584,
+    "en": "shoot",
+    "kr": "쏘다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 586,
+    "en": "short",
+    "kr": "짧은",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 588,
+    "en": "shout",
+    "kr": "외치다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 601,
+    "en": "skate",
+    "kr": "스케이트",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 602,
+    "en": "skirt",
+    "kr": "치마",
+    "level": "Lv3",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 604,
+    "en": "sleep",
+    "kr": "잠자다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 605,
+    "en": "slide",
+    "kr": "미끄러지다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 607,
+    "en": "small",
+    "kr": "작은",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 608,
+    "en": "smell",
+    "kr": "냄새나다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 609,
+    "en": "smile",
+    "kr": "웃다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 610,
+    "en": "smoke",
+    "kr": "연기",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 621,
+    "en": "sorry",
+    "kr": "슬픈/유감의",
+    "level": "Lv3",
+    "category": "감정_상태"
+  },
+  {
+    "no": 622,
+    "en": "sound",
+    "kr": "소리",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 624,
+    "en": "south",
+    "kr": "남쪽",
+    "level": "Lv3",
+    "category": "방향_위치"
+  },
+  {
+    "no": 625,
+    "en": "space",
+    "kr": "공간/우주",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 626,
+    "en": "speak",
+    "kr": "이야기하다",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 627,
+    "en": "speed",
+    "kr": "속력",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 628,
+    "en": "spell",
+    "kr": "철자",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 629,
+    "en": "spend",
+    "kr": "낭비하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 630,
+    "en": "spoon",
+    "kr": "숟가락",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 631,
+    "en": "sport",
+    "kr": "운동경기",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 635,
+    "en": "stamp",
+    "kr": "우표",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 636,
+    "en": "stand",
+    "kr": "서다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 638,
+    "en": "start",
+    "kr": "출발하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 641,
+    "en": "steam",
+    "kr": "증기",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 643,
+    "en": "stick",
+    "kr": "막대기",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 644,
+    "en": "stone",
+    "kr": "돌멩이",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 646,
+    "en": "store",
+    "kr": "가게",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 647,
+    "en": "storm",
+    "kr": "폭풍우",
+    "level": "Lv3",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 648,
+    "en": "story",
+    "kr": "이야기",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 649,
+    "en": "stove",
+    "kr": "스토브/난로",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 657,
+    "en": "study",
+    "kr": "공부하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 660,
+    "en": "sugar",
+    "kr": "설탕",
+    "level": "Lv3",
+    "category": "음식"
+  },
+  {
+    "no": 668,
+    "en": "sweet",
+    "kr": "달콤한",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 670,
+    "en": "swing",
+    "kr": "흔들리다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 672,
+    "en": "table",
+    "kr": "식탁/탁자",
+    "level": "Lv3",
+    "category": "사물_도구"
+  },
+  {
+    "no": 677,
+    "en": "taste",
+    "kr": "맛보다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 680,
+    "en": "teach",
+    "kr": "가르치다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 689,
+    "en": "thank",
+    "kr": "감사하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 693,
+    "en": "there",
+    "kr": "그곳에",
+    "level": "Lv3",
+    "category": "대명사"
+  },
+  {
+    "no": 695,
+    "en": "thick",
+    "kr": "두꺼운",
+    "level": "Lv3",
+    "category": "일반형용사"
+  },
+  {
+    "no": 697,
+    "en": "thing",
+    "kr": "사물",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 698,
+    "en": "think",
+    "kr": "생각하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 703,
+    "en": "throw",
+    "kr": "던지다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 706,
+    "en": "tiger",
+    "kr": "호랑이",
+    "level": "Lv3",
+    "category": "동물"
+  },
+  {
+    "no": 709,
+    "en": "tired",
+    "kr": "피곤한",
+    "level": "Lv3",
+    "category": "감정_상태"
+  },
+  {
+    "no": 711,
+    "en": "today",
+    "kr": "오늘/현재",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 717,
+    "en": "tooth",
+    "kr": "이",
+    "level": "Lv3",
+    "category": "신체"
+  },
+  {
+    "no": 719,
+    "en": "touch",
+    "kr": "만지다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 722,
+    "en": "train",
+    "kr": "기차",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 726,
+    "en": "truck",
+    "kr": "화물차",
+    "level": "Lv3",
+    "category": "교통_장소"
+  },
+  {
+    "no": 729,
+    "en": "tulip",
+    "kr": "튤립",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 731,
+    "en": "twice",
+    "kr": "두번",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 733,
+    "en": "uncle",
+    "kr": "삼촌",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 734,
+    "en": "under",
+    "kr": "~아래에서",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 736,
+    "en": "until",
+    "kr": "~까지",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 739,
+    "en": "usual",
+    "kr": "보통의",
+    "level": "Lv3",
+    "category": "시간"
+  },
+  {
+    "no": 743,
+    "en": "video",
+    "kr": "비디오",
+    "level": "Lv3",
+    "category": "취미_예술"
+  },
+  {
+    "no": 745,
+    "en": "visit",
+    "kr": "방문하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 755,
+    "en": "waste",
+    "kr": "낭비하다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 756,
+    "en": "watch",
+    "kr": "보다",
+    "level": "Lv3",
+    "category": "일반동사"
+  },
+  {
+    "no": 757,
+    "en": "water",
+    "kr": "물",
+    "level": "Lv3",
+    "category": "기타"
+  },
+  {
+    "no": 770,
+    "en": "where",
+    "kr": "어디(의문사)",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 771,
+    "en": "which",
+    "kr": "어느쪽(의문사)",
+    "level": "Lv3",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 772,
+    "en": "white",
+    "kr": "하얀색",
+    "level": "Lv3",
+    "category": "색깔"
+  },
+  {
+    "no": 783,
+    "en": "woman",
+    "kr": "여자",
+    "level": "Lv3",
+    "category": "가족_사람"
+  },
+  {
+    "no": 788,
+    "en": "world",
+    "kr": "세상",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 789,
+    "en": "write",
+    "kr": "쓰다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 790,
+    "en": "wrong",
+    "kr": "나쁜",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 798,
+    "en": "young",
+    "kr": "젊은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 3,
+    "en": "across",
+    "kr": "~을 가로질러",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 6,
+    "en": "afraid",
+    "kr": "두려워하여",
+    "level": "Lv4",
+    "category": "감정_상태"
+  },
+  {
+    "no": 17,
+    "en": "always",
+    "kr": "항상",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 21,
+    "en": "animal",
+    "kr": "동물",
+    "level": "Lv4",
+    "category": "동물"
+  },
+  {
+    "no": 22,
+    "en": "answer",
+    "kr": "대답",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 27,
+    "en": "around",
+    "kr": "~주위에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 28,
+    "en": "arrive",
+    "kr": "도착하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 33,
+    "en": "autumn",
+    "kr": "가을",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 41,
+    "en": "banana",
+    "kr": "바나나",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 45,
+    "en": "basket",
+    "kr": "바구니",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 52,
+    "en": "become",
+    "kr": "~이되다",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 54,
+    "en": "before",
+    "kr": "~전에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 56,
+    "en": "behind",
+    "kr": "~뒤에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 60,
+    "en": "beside",
+    "kr": "~곁에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 73,
+    "en": "bottle",
+    "kr": "병",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 80,
+    "en": "bridge",
+    "kr": "다리",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 81,
+    "en": "bright",
+    "kr": "밝은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 91,
+    "en": "butter",
+    "kr": "버터",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 92,
+    "en": "button",
+    "kr": "단추",
+    "level": "Lv4",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 99,
+    "en": "camera",
+    "kr": "사진기",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 102,
+    "en": "candle",
+    "kr": "양초",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 116,
+    "en": "center",
+    "kr": "중앙",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 119,
+    "en": "chance",
+    "kr": "기회",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 120,
+    "en": "change",
+    "kr": "바꾸다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 122,
+    "en": "cheese",
+    "kr": "치즈",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 126,
+    "en": "church",
+    "kr": "교회",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 127,
+    "en": "circle",
+    "kr": "원",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 139,
+    "en": "coffee",
+    "kr": "커피",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 148,
+    "en": "corner",
+    "kr": "모퉁이",
+    "level": "Lv4",
+    "category": "방향_위치"
+  },
+  {
+    "no": 151,
+    "en": "course",
+    "kr": "과정",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 152,
+    "en": "cousin",
+    "kr": "사촌",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 155,
+    "en": "crayon",
+    "kr": "크레용",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 164,
+    "en": "danger",
+    "kr": "위험한",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 177,
+    "en": "dinner",
+    "kr": "저녁",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 181,
+    "en": "doctor",
+    "kr": "의사",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 184,
+    "en": "dollar",
+    "kr": "달러",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 206,
+    "en": "engine",
+    "kr": "엔진",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 208,
+    "en": "enough",
+    "kr": "충분한",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 209,
+    "en": "eraser",
+    "kr": "지우개",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 214,
+    "en": "excite",
+    "kr": "흥분시키다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 215,
+    "en": "excuse",
+    "kr": "용서하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 222,
+    "en": "family",
+    "kr": "가족",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 227,
+    "en": "famous",
+    "kr": "유명한",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 228,
+    "en": "father",
+    "kr": "아버지",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 237,
+    "en": "finger",
+    "kr": "손가락",
+    "level": "Lv4",
+    "category": "신체"
+  },
+  {
+    "no": 238,
+    "en": "finish",
+    "kr": "끝내다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 244,
+    "en": "flower",
+    "kr": "꽃",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 246,
+    "en": "follow",
+    "kr": "뒤를따르다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 251,
+    "en": "forget",
+    "kr": "잊다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 255,
+    "en": "friend",
+    "kr": "친구",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 262,
+    "en": "garden",
+    "kr": "정원",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 265,
+    "en": "gentle",
+    "kr": "온화한",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 282,
+    "en": "ground",
+    "kr": "땅/기초",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 285,
+    "en": "guitar",
+    "kr": "기타(악기)",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 291,
+    "en": "handle",
+    "kr": "손잡이",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 292,
+    "en": "happen",
+    "kr": "발생하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 310,
+    "en": "hiking",
+    "kr": "하이킹/도보여행",
+    "level": "Lv4",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 327,
+    "en": "hungry",
+    "kr": "배고픈",
+    "level": "Lv4",
+    "category": "감정_상태"
+  },
+  {
+    "no": 340,
+    "en": "island",
+    "kr": "섬",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 346,
+    "en": "jungle",
+    "kr": "밀림지대",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 374,
+    "en": "lesson",
+    "kr": "학과",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 376,
+    "en": "letter",
+    "kr": "편지",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 385,
+    "en": "listen",
+    "kr": "듣다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 386,
+    "en": "little",
+    "kr": "작은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 405,
+    "en": "market",
+    "kr": "상점",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 407,
+    "en": "matter",
+    "kr": "문제",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 414,
+    "en": "middle",
+    "kr": "한가운데",
+    "level": "Lv4",
+    "category": "방향_위치"
+  },
+  {
+    "no": 417,
+    "en": "minute",
+    "kr": "분/순간",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 418,
+    "en": "mirror",
+    "kr": "거울",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 423,
+    "en": "monkey",
+    "kr": "원숭이",
+    "level": "Lv4",
+    "category": "동물"
+  },
+  {
+    "no": 427,
+    "en": "mother",
+    "kr": "어머니",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 438,
+    "en": "narrow",
+    "kr": "좁은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 455,
+    "en": "number",
+    "kr": "숫자",
+    "level": "Lv4",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 460,
+    "en": "office",
+    "kr": "사무실",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 471,
+    "en": "orange",
+    "kr": "오렌지",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 480,
+    "en": "pardon",
+    "kr": "용서하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 481,
+    "en": "parent",
+    "kr": "부모",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 489,
+    "en": "pencil",
+    "kr": "연필",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 490,
+    "en": "people",
+    "kr": "사람",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 493,
+    "en": "picnic",
+    "kr": "소풍",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 507,
+    "en": "please",
+    "kr": "기쁘게하다/제발",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 508,
+    "en": "pocket",
+    "kr": "주머니",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 510,
+    "en": "police",
+    "kr": "경찰",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 514,
+    "en": "poster",
+    "kr": "포스터",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 515,
+    "en": "potato",
+    "kr": "감자",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 518,
+    "en": "pretty",
+    "kr": "예쁜",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 534,
+    "en": "record",
+    "kr": "기록하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 537,
+    "en": "repeat",
+    "kr": "반복하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 540,
+    "en": "return",
+    "kr": "되돌아가다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 541,
+    "en": "ribbon",
+    "kr": "리본",
+    "level": "Lv4",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 551,
+    "en": "rocket",
+    "kr": "로켓",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 566,
+    "en": "school",
+    "kr": "학교",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 569,
+    "en": "season",
+    "kr": "계절",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 590,
+    "en": "shower",
+    "kr": "소나기/샤워",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 595,
+    "en": "silver",
+    "kr": "은",
+    "level": "Lv4",
+    "category": "색깔"
+  },
+  {
+    "no": 598,
+    "en": "sister",
+    "kr": "자매",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 614,
+    "en": "soccer",
+    "kr": "축구",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 632,
+    "en": "spring",
+    "kr": "봄/용수철",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 633,
+    "en": "square",
+    "kr": "정사각형",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 634,
+    "en": "stairs",
+    "kr": "계단/사닥다리",
+    "level": "Lv4",
+    "category": "집_가구"
+  },
+  {
+    "no": 653,
+    "en": "street",
+    "kr": "거리",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 654,
+    "en": "strike",
+    "kr": "치다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 655,
+    "en": "strong",
+    "kr": "강한",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 658,
+    "en": "stupid",
+    "kr": "어리석은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 659,
+    "en": "subway",
+    "kr": "지하철",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 661,
+    "en": "summer",
+    "kr": "여름",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 664,
+    "en": "supper",
+    "kr": "저녁식사",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 671,
+    "en": "switch",
+    "kr": "스위치",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 685,
+    "en": "temple",
+    "kr": "절",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 686,
+    "en": "tennis",
+    "kr": "테니스",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 704,
+    "en": "ticket",
+    "kr": "표",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 713,
+    "en": "tomato",
+    "kr": "토마토",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 723,
+    "en": "travel",
+    "kr": "여행하다",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 746,
+    "en": "violin",
+    "kr": "바이올린",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 779,
+    "en": "window",
+    "kr": "창문",
+    "level": "Lv4",
+    "category": "집_가구"
+  },
+  {
+    "no": 781,
+    "en": "winter",
+    "kr": "겨울",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 784,
+    "en": "wonder",
+    "kr": "놀라다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 793,
+    "en": "yellow",
+    "kr": "노랑색",
+    "level": "Lv4",
+    "category": "색깔"
+  },
+  {
+    "no": 5,
+    "en": "address",
+    "kr": "주소",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 13,
+    "en": "airport",
+    "kr": "공항",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 40,
+    "en": "balloon",
+    "kr": "풍선",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 51,
+    "en": "because",
+    "kr": "~때문에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 61,
+    "en": "between",
+    "kr": "~사이에",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 62,
+    "en": "bicycle",
+    "kr": "자전거",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 83,
+    "en": "brother",
+    "kr": "형제",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 105,
+    "en": "capital",
+    "kr": "수도/대문자",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 106,
+    "en": "captain",
+    "kr": "우두머리",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 115,
+    "en": "ceiling",
+    "kr": "천장",
+    "level": "Lv4",
+    "category": "집_가구"
+  },
+  {
+    "no": 123,
+    "en": "chicken",
+    "kr": "닭",
+    "level": "Lv4",
+    "category": "동물"
+  },
+  {
+    "no": 135,
+    "en": "clothes",
+    "kr": "옷",
+    "level": "Lv4",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 150,
+    "en": "country",
+    "kr": "지역",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 160,
+    "en": "curtain",
+    "kr": "커튼",
+    "level": "Lv4",
+    "category": "집_가구"
+  },
+  {
+    "no": 185,
+    "en": "dolphin",
+    "kr": "돌고래",
+    "level": "Lv4",
+    "category": "동물"
+  },
+  {
+    "no": 210,
+    "en": "evening",
+    "kr": "저녁",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 212,
+    "en": "example",
+    "kr": "예/보기",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 315,
+    "en": "holiday",
+    "kr": "휴일",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 326,
+    "en": "hundred",
+    "kr": "백(100)",
+    "level": "Lv4",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 355,
+    "en": "kitchen",
+    "kr": "부엌",
+    "level": "Lv4",
+    "category": "집_가구"
+  },
+  {
+    "no": 377,
+    "en": "library",
+    "kr": "도서관",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 416,
+    "en": "million",
+    "kr": "100만",
+    "level": "Lv4",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 426,
+    "en": "morning",
+    "kr": "아침",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 457,
+    "en": "o'clock",
+    "kr": "~시 정각",
+    "level": "Lv4",
+    "category": "핵심표현_문법"
+  },
+  {
+    "no": 494,
+    "en": "picture",
+    "kr": "그림",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 517,
+    "en": "present",
+    "kr": "현재/선물",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 520,
+    "en": "problem",
+    "kr": "문제",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 530,
+    "en": "rainbow",
+    "kr": "무지개",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 574,
+    "en": "service",
+    "kr": "봉사하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 639,
+    "en": "station",
+    "kr": "정거장",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 651,
+    "en": "strange",
+    "kr": "이상한/낯선",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 656,
+    "en": "student",
+    "kr": "학생",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 667,
+    "en": "sweater",
+    "kr": "스웨터",
+    "level": "Lv4",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 699,
+    "en": "thirsty",
+    "kr": "목마른/갈망",
+    "level": "Lv4",
+    "category": "감정_상태"
+  },
+  {
+    "no": 702,
+    "en": "through",
+    "kr": "통해서",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 715,
+    "en": "tonight",
+    "kr": "오늘밤",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 744,
+    "en": "village",
+    "kr": "마을",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 762,
+    "en": "weather",
+    "kr": "날씨",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 764,
+    "en": "welcome",
+    "kr": "환영하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 65,
+    "en": "birthday",
+    "kr": "생일",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 96,
+    "en": "calendar",
+    "kr": "달력",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 112,
+    "en": "cassette",
+    "kr": "카셋트",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 144,
+    "en": "computer",
+    "kr": "컴퓨터",
+    "level": "Lv4",
+    "category": "사물_도구"
+  },
+  {
+    "no": 167,
+    "en": "daughter",
+    "kr": "딸",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 216,
+    "en": "exercise",
+    "kr": "연습",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 320,
+    "en": "hospital",
+    "kr": "병원",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 337,
+    "en": "interest",
+    "kr": "흥미",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 428,
+    "en": "mountain",
+    "kr": "산",
+    "level": "Lv4",
+    "category": "자연_날씨"
+  },
+  {
+    "no": 516,
+    "en": "practice",
+    "kr": "연습/습관",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 525,
+    "en": "question",
+    "kr": "질문",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 536,
+    "en": "remember",
+    "kr": "기억하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 587,
+    "en": "shoulder",
+    "kr": "어깨",
+    "level": "Lv4",
+    "category": "신체"
+  },
+  {
+    "no": 650,
+    "en": "straight",
+    "kr": "곧은",
+    "level": "Lv4",
+    "category": "일반형용사"
+  },
+  {
+    "no": 666,
+    "en": "surprise",
+    "kr": "놀라운",
+    "level": "Lv4",
+    "category": "감정_상태"
+  },
+  {
+    "no": 701,
+    "en": "thousand",
+    "kr": "천(1000)",
+    "level": "Lv4",
+    "category": "숫자_수량"
+  },
+  {
+    "no": 712,
+    "en": "together",
+    "kr": "함께",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 714,
+    "en": "tomorrow",
+    "kr": "내일",
+    "level": "Lv4",
+    "category": "시간"
+  },
+  {
+    "no": 732,
+    "en": "umbrella",
+    "kr": "우산",
+    "level": "Lv4",
+    "category": "옷_소지품"
+  },
+  {
+    "no": 740,
+    "en": "vacation",
+    "kr": "휴가",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 8,
+    "en": "afternoon",
+    "kr": "오후",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 24,
+    "en": "apartment",
+    "kr": "아파트",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 50,
+    "en": "beautiful",
+    "kr": "아름다움",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 79,
+    "en": "breakfast",
+    "kr": "아침",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 125,
+    "en": "chopstick",
+    "kr": "젓가락",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 130,
+    "en": "classmate",
+    "kr": "동급생",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 213,
+    "en": "excellent",
+    "kr": "뛰어난",
+    "level": "Lv4",
+    "category": "기타"
+  },
+  {
+    "no": 289,
+    "en": "hamburger",
+    "kr": "햄버거",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 339,
+    "en": "introduce",
+    "kr": "소개하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 682,
+    "en": "telephone",
+    "kr": "전화기",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 741,
+    "en": "vegetable",
+    "kr": "야채",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 795,
+    "en": "yesterday",
+    "kr": "어제",
+    "level": "Lv4",
+    "category": "감탄사_인사"
+  },
+  {
+    "no": 175,
+    "en": "dictionary",
+    "kr": "사전",
+    "level": "Lv4",
+    "category": "학교_물건"
+  },
+  {
+    "no": 539,
+    "en": "restaurant",
+    "kr": "식당",
+    "level": "Lv4",
+    "category": "교통_장소"
+  },
+  {
+    "no": 652,
+    "en": "strawberry",
+    "kr": "딸기",
+    "level": "Lv4",
+    "category": "음식"
+  },
+  {
+    "no": 683,
+    "en": "television",
+    "kr": "텔레비전",
+    "level": "Lv4",
+    "category": "취미_예술"
+  },
+  {
+    "no": 735,
+    "en": "understand",
+    "kr": "이해하다",
+    "level": "Lv4",
+    "category": "일반동사"
+  },
+  {
+    "no": 276,
+    "en": "grandmother",
+    "kr": "할머니",
+    "level": "Lv4",
+    "category": "가족_사람"
+  },
+  {
+    "no": 663,
+    "en": "supermarket",
+    "kr": "슈퍼마켓",
+    "level": "Lv4",
+    "category": "교통_장소"
+  }
+]

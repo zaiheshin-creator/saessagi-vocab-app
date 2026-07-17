@@ -1,0 +1,31 @@
+{
+  "name": "saessagi-vocab-app",
+  "version": "0.1.0",
+  "description": "새싹이와 오늘의 단어 — 초등 영단어 학습 PWA",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:words": "node scripts/build_words.js",
+    "data:curriculum": "node scripts/build_curriculum.js",
+    "data:all": "npm run data:words && npm run data:curriculum",
+    "gen:icon": "node scripts/gen_icon.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "sharp": "^0.34.5",
+    "vite": "^8.0.3"
+  }
+}

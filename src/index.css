@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Fredoka';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/fredoka-700.woff2') format('woff2');
+  unicode-range: U+30-39, U+41-5A, U+61-7A;
+  font-display: swap;
+}
+
+:root {
+  --bg: #F4F9F5;
+  --paper: #FFFFFF;
+  --paper-sunk: #ECF4EE;
+  --ink: #26362B;
+  --ink-soft: #5B6D5F;
+  --ink-faint: #93A498;
+  --line: #DCE8DE;
+  --sprout: #3FAE68;
+  --sprout-deep: #2E8F52;
+  --sprout-tint: #E4F5EA;
+  --tangerine: #FF8A5B;
+  --tangerine-tint: #FFE9DF;
+  --sky: #3FA9D6;
+  --sky-tint: #E3F4FA;
+  --sun: #FFB93E;
+  --sun-tint: #FFF3DA;
+  --berry: #F2637C;
+  --berry-tint: #FDE4E8;
+  --shadow: 38 61 46;
+}
+
+:root[data-theme="dark"] {
+  --bg: #142019; --paper: #1C2A21; --paper-sunk: #223226;
+  --ink: #EAF2EA; --ink-soft: #A9BBAD; --ink-faint: #6C8072; --line: #2C3D30;
+  --sprout: #56C382; --sprout-deep: #7ED9A3; --sprout-tint: #223B2C;
+  --tangerine: #FF9B70; --tangerine-tint: #3A2A22;
+  --sky: #6BC4E8; --sky-tint: #1F323B;
+  --sun: #FFCB63; --sun-tint: #3A2F1A;
+  --berry: #FF7C93; --berry-tint: #3A222A;
+  --shadow: 0 0 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #142019; --paper: #1C2A21; --paper-sunk: #223226;
+    --ink: #EAF2EA; --ink-soft: #A9BBAD; --ink-faint: #6C8072; --line: #2C3D30;
+    --sprout: #56C382; --sprout-deep: #7ED9A3; --sprout-tint: #223B2C;
+    --tangerine: #FF9B70; --tangerine-tint: #3A2A22;
+    --sky: #6BC4E8; --sky-tint: #1F323B;
+    --sun: #FFCB63; --sun-tint: #3A2F1A;
+    --berry: #FF7C93; --berry-tint: #3A222A;
+    --shadow: 0 0 0;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-display {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+}
+
+.app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

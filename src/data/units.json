@@ -1,0 +1,226 @@
+{
+  "Lv1-핵심표현_문법": {
+    "id": "Lv1-핵심표현_문법",
+    "level": "Lv1",
+    "label": "핵심표현_문법",
+    "icon": "📚",
+    "wordCount": 18
+  },
+  "Lv1-일반동사": {
+    "id": "Lv1-일반동사",
+    "level": "Lv1",
+    "label": "일반동사",
+    "icon": "🏃",
+    "wordCount": 39
+  },
+  "Lv1-일반형용사": {
+    "id": "Lv1-일반형용사",
+    "level": "Lv1",
+    "label": "일반형용사",
+    "icon": "✨",
+    "wordCount": 22
+  },
+  "Lv1-사물_도구": {
+    "id": "Lv1-사물_도구",
+    "level": "Lv1",
+    "label": "사물_도구",
+    "icon": "🧰",
+    "wordCount": 15
+  },
+  "Lv1-동물": {
+    "id": "Lv1-동물",
+    "level": "Lv1",
+    "label": "동물",
+    "icon": "🐾",
+    "wordCount": 10
+  },
+  "Lv1-기타표현": {
+    "id": "Lv1-기타표현",
+    "level": "Lv1",
+    "label": "기타 표현",
+    "icon": "🧩",
+    "wordCount": 96
+  },
+  "Lv2-핵심표현_문법": {
+    "id": "Lv2-핵심표현_문법",
+    "level": "Lv2",
+    "label": "핵심표현_문법",
+    "icon": "📚",
+    "wordCount": 12
+  },
+  "Lv2-일반동사": {
+    "id": "Lv2-일반동사",
+    "level": "Lv2",
+    "label": "일반동사",
+    "icon": "🏃",
+    "wordCount": 46
+  },
+  "Lv2-일반형용사": {
+    "id": "Lv2-일반형용사",
+    "level": "Lv2",
+    "label": "일반형용사",
+    "icon": "✨",
+    "wordCount": 22
+  },
+  "Lv2-사물_도구": {
+    "id": "Lv2-사물_도구",
+    "level": "Lv2",
+    "label": "사물_도구",
+    "icon": "🧰",
+    "wordCount": 12
+  },
+  "Lv2-교통_장소": {
+    "id": "Lv2-교통_장소",
+    "level": "Lv2",
+    "label": "교통_장소",
+    "icon": "🚌",
+    "wordCount": 11
+  },
+  "Lv2-자연_날씨": {
+    "id": "Lv2-자연_날씨",
+    "level": "Lv2",
+    "label": "자연_날씨",
+    "icon": "🌤️",
+    "wordCount": 10
+  },
+  "Lv2-신체": {
+    "id": "Lv2-신체",
+    "level": "Lv2",
+    "label": "신체",
+    "icon": "👀",
+    "wordCount": 8
+  },
+  "Lv2-기타표현": {
+    "id": "Lv2-기타표현",
+    "level": "Lv2",
+    "label": "기타 표현",
+    "icon": "🧩",
+    "wordCount": 79
+  },
+  "Lv3-핵심표현_문법": {
+    "id": "Lv3-핵심표현_문법",
+    "level": "Lv3",
+    "label": "핵심표현_문법",
+    "icon": "📚",
+    "wordCount": 12
+  },
+  "Lv3-일반동사": {
+    "id": "Lv3-일반동사",
+    "level": "Lv3",
+    "label": "일반동사",
+    "icon": "🏃",
+    "wordCount": 44
+  },
+  "Lv3-사물_도구": {
+    "id": "Lv3-사물_도구",
+    "level": "Lv3",
+    "label": "사물_도구",
+    "icon": "🧰",
+    "wordCount": 15
+  },
+  "Lv3-일반형용사": {
+    "id": "Lv3-일반형용사",
+    "level": "Lv3",
+    "label": "일반형용사",
+    "icon": "✨",
+    "wordCount": 12
+  },
+  "Lv3-음식": {
+    "id": "Lv3-음식",
+    "level": "Lv3",
+    "label": "음식",
+    "icon": "🍎",
+    "wordCount": 10
+  },
+  "Lv3-취미_예술": {
+    "id": "Lv3-취미_예술",
+    "level": "Lv3",
+    "label": "취미_예술",
+    "icon": "🎵",
+    "wordCount": 10
+  },
+  "Lv3-교통_장소": {
+    "id": "Lv3-교통_장소",
+    "level": "Lv3",
+    "label": "교통_장소",
+    "icon": "🚌",
+    "wordCount": 8
+  },
+  "Lv3-기타표현": {
+    "id": "Lv3-기타표현",
+    "level": "Lv3",
+    "label": "기타 표현",
+    "icon": "🧩",
+    "wordCount": 89
+  },
+  "Lv4-핵심표현_문법": {
+    "id": "Lv4-핵심표현_문법",
+    "level": "Lv4",
+    "label": "핵심표현_문법",
+    "icon": "📚",
+    "wordCount": 9
+  },
+  "Lv4-일반동사": {
+    "id": "Lv4-일반동사",
+    "level": "Lv4",
+    "label": "일반동사",
+    "icon": "🏃",
+    "wordCount": 21
+  },
+  "Lv4-교통_장소": {
+    "id": "Lv4-교통_장소",
+    "level": "Lv4",
+    "label": "교통_장소",
+    "icon": "🚌",
+    "wordCount": 19
+  },
+  "Lv4-가족_사람": {
+    "id": "Lv4-가족_사람",
+    "level": "Lv4",
+    "label": "가족_사람",
+    "icon": "👪",
+    "wordCount": 15
+  },
+  "Lv4-일반형용사": {
+    "id": "Lv4-일반형용사",
+    "level": "Lv4",
+    "label": "일반형용사",
+    "icon": "✨",
+    "wordCount": 14
+  },
+  "Lv4-음식": {
+    "id": "Lv4-음식",
+    "level": "Lv4",
+    "label": "음식",
+    "icon": "🍎",
+    "wordCount": 14
+  },
+  "Lv4-사물_도구": {
+    "id": "Lv4-사물_도구",
+    "level": "Lv4",
+    "label": "사물_도구",
+    "icon": "🧰",
+    "wordCount": 13
+  },
+  "Lv4-취미_예술": {
+    "id": "Lv4-취미_예술",
+    "level": "Lv4",
+    "label": "취미_예술",
+    "icon": "🎵",
+    "wordCount": 11
+  },
+  "Lv4-자연_날씨": {
+    "id": "Lv4-자연_날씨",
+    "level": "Lv4",
+    "label": "자연_날씨",
+    "icon": "🌤️",
+    "wordCount": 8
+  },
+  "Lv4-기타표현": {
+    "id": "Lv4-기타표현",
+    "level": "Lv4",
+    "label": "기타 표현",
+    "icon": "🧩",
+    "wordCount": 76
+  }
+}
