@@ -24,12 +24,20 @@ export default function WrongNotePage() {
   const [mode, setMode] = useState('list'); // 'list' | 'review'
   const [sessionQueue, setSessionQueue] = useState([]);
 
+  // getWordInfo가 못 찾는 wordNo(예: 나중에 curriculum.json이 바뀌어 옛 localStorage 큐가 가리키는 단어가
+  // 사라진 경우)는 화면이 죽지 않도록 조용히 걸러낸다.
   const dueWords = useMemo(
-    () => getDueReviews(reviewQueue).map((entry) => ({ ...entry, word: withExtras(getWordInfo(entry.wordNo)) })),
+    () => getDueReviews(reviewQueue)
+      .map((entry) => ({ ...entry, word: getWordInfo(entry.wordNo) }))
+      .filter((entry) => entry.word)
+      .map((entry) => ({ ...entry, word: withExtras(entry.word) })),
     [reviewQueue]
   );
   const upcomingWords = useMemo(
-    () => getUpcomingReviews(reviewQueue).map((entry) => ({ ...entry, word: withExtras(getWordInfo(entry.wordNo)) })),
+    () => getUpcomingReviews(reviewQueue)
+      .map((entry) => ({ ...entry, word: getWordInfo(entry.wordNo) }))
+      .filter((entry) => entry.word)
+      .map((entry) => ({ ...entry, word: withExtras(entry.word) })),
     [reviewQueue]
   );
 
@@ -146,6 +154,7 @@ function ReviewMode({ queue, onExit }) {
   const { reviewWord } = useStore();
   const [idx, setIdx] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const [answering, setAnswering] = useState(false);
   const [bubble, setBubble] = useState('솔직하게 골라도 괜찮아요!');
   const finished = idx >= queue.length;
   const current = finished ? null : queue[idx];
@@ -156,11 +165,14 @@ function ReviewMode({ queue, onExit }) {
   }
 
   function handleAssess(result) {
+    if (answering) return; // 500ms 전환 애니메이션 동안 중복 탭 방지 — 안 그러면 reviewWord()가 두 번 불려 큐가 꼬임
+    setAnswering(true);
     reviewWord(current.wordNo, result);
     setBubble(result === 'easy' ? '좋아요! 다음에 또 만나요 🌿' : '괜찮아요, 내일 또 연습해요!');
     setTimeout(() => {
       setIdx((i) => i + 1);
       setRevealed(false);
+      setAnswering(false);
       setBubble('솔직하게 골라도 괜찮아요!');
     }, 500);
   }
@@ -218,8 +230,9 @@ function ReviewMode({ queue, onExit }) {
             <button
               type="button"
               onClick={() => handleAssess('hard')}
+              disabled={answering}
               className="font-display flex flex-col items-center gap-0.5"
-              style={{ flex: 1, border: '1.5px solid var(--berry)', background: 'var(--berry-tint)', color: 'var(--berry)', borderRadius: 14, padding: '13px 8px', fontWeight: 700, fontSize: 13.5, cursor: 'pointer' }}
+              style={{ flex: 1, border: '1.5px solid var(--berry)', background: 'var(--berry-tint)', color: 'var(--berry)', borderRadius: 14, padding: '13px 8px', fontWeight: 700, fontSize: 13.5, cursor: answering ? 'default' : 'pointer', opacity: answering ? 0.6 : 1 }}
             >
               <span>😵 아직 헷갈려요</span>
               <small style={{ fontFamily: '"Malgun Gothic", sans-serif', fontWeight: 700, fontSize: 10.5, opacity: 0.8 }}>내일 다시</small>
@@ -227,8 +240,9 @@ function ReviewMode({ queue, onExit }) {
             <button
               type="button"
               onClick={() => handleAssess('easy')}
+              disabled={answering}
               className="font-display flex flex-col items-center gap-0.5"
-              style={{ flex: 1, border: '1.5px solid var(--sprout)', background: 'var(--sprout-tint)', color: 'var(--sprout-deep)', borderRadius: 14, padding: '13px 8px', fontWeight: 700, fontSize: 13.5, cursor: 'pointer' }}
+              style={{ flex: 1, border: '1.5px solid var(--sprout)', background: 'var(--sprout-tint)', color: 'var(--sprout-deep)', borderRadius: 14, padding: '13px 8px', fontWeight: 700, fontSize: 13.5, cursor: answering ? 'default' : 'pointer', opacity: answering ? 0.6 : 1 }}
             >
               <span>😊 이제 알겠어요</span>
               <small style={{ fontFamily: '"Malgun Gothic", sans-serif', fontWeight: 700, fontSize: 10.5, opacity: 0.8 }}>{easyLabel}</small>

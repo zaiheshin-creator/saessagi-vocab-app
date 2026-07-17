@@ -10,9 +10,9 @@ export default function LevelMapPage() {
   const completedSet = useMemo(() => new Set(completedWordNos), [completedWordNos]);
   const todaySet = useMemo(() => new Set(todayBatch), [todayBatch]);
 
-  // 오늘 배우는 첫 단어의 레벨을 기본 선택값으로. todayBatch가 비어있으면(=800단어 완주) Lv1로 시작.
-  const defaultLevel = todayBatch.length > 0 ? getWordInfo(todayBatch[0])?.level || 'Lv1' : 'Lv1';
-  const [selectedLevel, setSelectedLevel] = useState(defaultLevel);
+  // 오늘 배우는 첫 단어의 레벨 = 실제로 진행 중인 레벨. todayBatch가 비어있으면(=800단어 완주) null.
+  const actualCurrentLevel = todayBatch.length > 0 ? getWordInfo(todayBatch[0])?.level || 'Lv1' : null;
+  const [selectedLevel, setSelectedLevel] = useState(actualCurrentLevel || 'Lv1');
 
   // curriculum.json은 이미 레벨→유닛→단어 순서로 정렬되어 있으므로, 한 번 훑으며
   // 레벨별로 유닛이 처음 등장한 순서를 그대로 유지한 목록을 만든다(units.json은 순서 정보가 없음).
@@ -33,10 +33,12 @@ export default function LevelMapPage() {
   const levelUnits = unitsByLevel[selectedLevel] || [];
   const levelName = levelUnits[0]?.words[0]?.levelName || '';
 
-  // "현재" 유닛: 오늘 배우는 단어가 포함된 유닛을 우선으로 하고, 없으면(오늘 학습이 다른 레벨에 걸쳐 있거나
-  // 이미 완료된 경우) 이 레벨 안에서 아직 다 끝내지 못한 첫 유닛을 현재로 삼는다.
+  // "현재" 유닛: 오늘 배우는 단어가 포함된 유닛을 우선으로 하고, 없으면(오늘 학습이 다른 유닛에 걸쳐 있는 경우)
+  // 이 레벨 안에서 아직 다 끝내지 못한 첫 유닛을 현재로 삼는다.
+  // 단, 이 폴백은 실제로 진행 중인 레벨(actualCurrentLevel)을 보고 있을 때만 적용한다 — 그렇지 않으면
+  // 아직 시작도 안 한 미래 레벨 탭을 미리 훑어봤을 때 첫 유닛이 "진행중"으로 잘못 표시된다.
   let currentIndex = levelUnits.findIndex((u) => u.words.some((w) => todaySet.has(w.no)));
-  if (currentIndex === -1) {
+  if (currentIndex === -1 && selectedLevel === actualCurrentLevel) {
     currentIndex = levelUnits.findIndex((u) => !u.words.every((w) => completedSet.has(w.no)));
   }
 
