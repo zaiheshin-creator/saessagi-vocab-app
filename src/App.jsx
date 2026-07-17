@@ -7,6 +7,7 @@ import LearnPage from './pages/LearnPage';
 import TestPage from './pages/TestPage';
 import ResultPage from './pages/ResultPage';
 import WordBookPage from './pages/WordBookPage';
+import WrongNotePage from './pages/WrongNotePage';
 
 function ComingSoon({ label }) {
   return (
@@ -97,7 +98,7 @@ export default function App() {
     result: ResultPage,
     wordbook: WordBookPage,
     levelmap: () => <ComingSoon label="레벨맵" />,
-    wrongnote: () => <ComingSoon label="오답노트" />,
+    wrongnote: WrongNotePage,
     mypage: () => <ComingSoon label="마이페이지" />,
   };
   const Page = PAGES[activeScreen] || HomePage;
