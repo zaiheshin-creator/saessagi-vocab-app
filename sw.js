@@ -7,7 +7,7 @@
  * v1이 순수 Cache First라 배포해도 이미 설치된 기기에서 계속 옛날 index.html을
  * 서빙하는 문제가 있었음(index.html 자체가 캐시에 박혀서 절대 안 바뀜) — v2에서 수정.
  */
-const CACHE_NAME = 'saessagi-v2';
+const CACHE_NAME = 'saessagi-v3';
 const BASE = self.location.pathname.replace(/\/sw\.js$/, '');
 const PRECACHE = [
   `${BASE}/`,
@@ -16,6 +16,8 @@ const PRECACHE = [
   `${BASE}/fonts/fredoka-700.woff2`,
   `${BASE}/icon-192.png`,
   `${BASE}/icon-512.png`,
+  `${BASE}/icon-192-maskable.png`,
+  `${BASE}/icon-512-maskable.png`,
   `${BASE}/apple-touch-icon.png`,
 ];
 
