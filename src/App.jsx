@@ -7,6 +7,8 @@ import LearnPage from './pages/LearnPage';
 import TestPage from './pages/TestPage';
 import ResultPage from './pages/ResultPage';
 import WordBookPage from './pages/WordBookPage';
+import MyPage from './pages/MyPage';
+import InstallBanner from './components/InstallBanner';
 
 function ComingSoon({ label }) {
   return (
@@ -98,7 +100,7 @@ export default function App() {
     wordbook: WordBookPage,
     levelmap: () => <ComingSoon label="레벨맵" />,
     wrongnote: () => <ComingSoon label="오답노트" />,
-    mypage: () => <ComingSoon label="마이페이지" />,
+    mypage: MyPage,
   };
   const Page = PAGES[activeScreen] || HomePage;
 
@@ -124,6 +126,7 @@ export default function App() {
         <Page />
       </main>
 
+      <InstallBanner />
       <BottomNav />
     </div>
   );
