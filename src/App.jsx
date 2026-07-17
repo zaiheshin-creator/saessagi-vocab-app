@@ -1,11 +1,21 @@
 import { useState } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 import { useStore } from './store/useStore';
+import BottomNav from './components/BottomNav';
 import HomePage from './pages/HomePage';
 import LearnPage from './pages/LearnPage';
 import TestPage from './pages/TestPage';
 import ResultPage from './pages/ResultPage';
 import WordBookPage from './pages/WordBookPage';
+
+function ComingSoon({ label }) {
+  return (
+    <div className="flex flex-col items-center justify-center gap-2 p-4 text-center" style={{ flex: 1 }}>
+      <div style={{ fontSize: 34 }}>🌱</div>
+      <p style={{ color: 'var(--ink-soft)', fontSize: 13.5 }}>{label} 화면은 곧 만나요!</p>
+    </div>
+  );
+}
 
 // 배포 후 GitHub Pages 주소로 교체 (acupuncture-app과 동일한 방식)
 const APP_URL = typeof window !== 'undefined' ? window.location.href : '';
@@ -79,8 +89,18 @@ export default function App() {
   const activeScreen = useStore((s) => s.activeScreen);
   const [showShare, setShowShare] = useState(false);
 
-  const Page = { home: HomePage, learn: LearnPage, test: TestPage, result: ResultPage, wordbook: WordBookPage }[activeScreen] || HomePage;
-  const setActiveScreen = useStore((s) => s.setActiveScreen);
+  // 새 화면을 추가하는 에이전트는 이 맵에 자기 키 한 줄만 추가/교체하면 된다(줄 단위로 분리해 병합 충돌을 줄임)
+  const PAGES = {
+    home: HomePage,
+    learn: LearnPage,
+    test: TestPage,
+    result: ResultPage,
+    wordbook: WordBookPage,
+    levelmap: () => <ComingSoon label="레벨맵" />,
+    wrongnote: () => <ComingSoon label="오답노트" />,
+    mypage: () => <ComingSoon label="마이페이지" />,
+  };
+  const Page = PAGES[activeScreen] || HomePage;
 
   return (
     <div className="app-shell">
@@ -89,13 +109,6 @@ export default function App() {
         <div style={{ flex: 1 }}>
           <h1 className="font-display" style={{ fontSize: 14, margin: 0 }}>새싹이와 오늘의 단어</h1>
         </div>
-        <button
-          onClick={() => setActiveScreen('wordbook')}
-          aria-label="단어장"
-          style={{ background: 'none', border: '1px solid var(--line)', borderRadius: 8, padding: '6px 10px', color: 'var(--ink-soft)', cursor: 'pointer', fontSize: 15 }}
-        >
-          📖
-        </button>
         <button
           onClick={() => setShowShare(true)}
           aria-label="앱 공유"
@@ -110,6 +123,8 @@ export default function App() {
       <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
         <Page />
       </main>
+
+      <BottomNav />
     </div>
   );
 }
