@@ -9,15 +9,8 @@ import ResultPage from './pages/ResultPage';
 import WordBookPage from './pages/WordBookPage';
 import LevelMapPage from './pages/LevelMapPage';
 import WrongNotePage from './pages/WrongNotePage';
-
-function ComingSoon({ label }) {
-  return (
-    <div className="flex flex-col items-center justify-center gap-2 p-4 text-center" style={{ flex: 1 }}>
-      <div style={{ fontSize: 34 }}>🌱</div>
-      <p style={{ color: 'var(--ink-soft)', fontSize: 13.5 }}>{label} 화면은 곧 만나요!</p>
-    </div>
-  );
-}
+import MyPage from './pages/MyPage';
+import InstallBanner from './components/InstallBanner';
 
 // 배포 후 GitHub Pages 주소로 교체 (acupuncture-app과 동일한 방식)
 const APP_URL = typeof window !== 'undefined' ? window.location.href : '';
@@ -100,7 +93,7 @@ export default function App() {
     wordbook: WordBookPage,
     levelmap: LevelMapPage,
     wrongnote: WrongNotePage,
-    mypage: () => <ComingSoon label="마이페이지" />,
+    mypage: MyPage,
   };
   const Page = PAGES[activeScreen] || HomePage;
 
@@ -126,6 +119,7 @@ export default function App() {
         <Page />
       </main>
 
+      <InstallBanner />
       <BottomNav />
     </div>
   );

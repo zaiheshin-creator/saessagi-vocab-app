@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import curriculum from '../data/curriculum.json';
+import units from '../data/units.json';
 
 const STORAGE_KEY = 'saessagi_progress';
 
@@ -101,6 +102,18 @@ export const useStore = create((set, get) => ({
   },
 
   // 오답노트 복습 화면에서 자기평가 결과를 반영한다: 'easy'면 다음 간격으로 진급(마지막 단계면 큐 졸업), 'hard'면 1일 뒤로 리셋
+  // 배지 규칙: 한 유닛에 속한 단어가 completedWordNos에 전부 들어있으면 그 유닛 배지를 획득한 것으로 본다.
+  // 이미 획득한 배지(badges)는 계속 남아있고, 새로 조건을 만족한 유닛만 추가한다(중복 추가 방지).
+  syncBadges: () => {
+    const earned = getEarnedBadgeUnitIds(get().completedWordNos);
+    const existing = new Set(get().badges);
+    const newlyEarned = earned.filter((unitId) => !existing.has(unitId));
+    if (newlyEarned.length === 0) return;
+    const badges = [...get().badges, ...newlyEarned];
+    set({ badges });
+    saveProgress(get());
+  },
+
   reviewWord: (wordNo, result) => {
     const today = todayStr();
     const queue = get().reviewQueue;
@@ -141,4 +154,15 @@ export function getCurriculumProgress(completedWordNos) {
   const total = curriculum.length;
   const done = completedWordNos.length;
   return { done, total, pct: Math.round((done / total) * 100) };
+}
+
+// 유닛별 단어 목록을 completedWordNos와 비교해, 유닛의 모든 단어를 다 배운 unitId 목록을 돌려준다.
+// 마이페이지 배지함이 이 함수의 결과(또는 store의 badges 누적값)를 그대로 표시한다 — 가짜 데이터 없음.
+export function getEarnedBadgeUnitIds(completedWordNos) {
+  const completedSet = new Set(completedWordNos);
+  const byUnit = {};
+  for (const w of curriculum) {
+    (byUnit[w.unitId] ||= []).push(w.no);
+  }
+  return Object.keys(units).filter((unitId) => (byUnit[unitId] || []).every((no) => completedSet.has(no)) && (byUnit[unitId] || []).length > 0);
 }
