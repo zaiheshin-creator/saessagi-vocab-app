@@ -10,7 +10,7 @@
     "data:curriculum": "node scripts/build_curriculum.js",
     "data:all": "npm run data:words && npm run data:curriculum",
     "gen:icon": "node scripts/gen_icon.js",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist --dotfiles"
   },
   "type": "module",
   "homepage": "https://zaiheshin-creator.github.io/saessagi-vocab-app",
