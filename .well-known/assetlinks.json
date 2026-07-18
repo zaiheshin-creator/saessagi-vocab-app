@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.saessagi.vocabapp",
+        "sha256_cert_fingerprints": ["49:DC:1B:84:40:E3:CE:1E:7B:F5:49:A1:DF:36:73:7E:D2:42:42:77:94:D7:1D:40:C7:D4:A9:25:BE:29:B1:C0"]
+      }
+    }]
