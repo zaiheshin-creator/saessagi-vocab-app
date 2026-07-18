@@ -17,6 +17,16 @@ const ICONS = {
   핵심표현_문법: '📚',
 };
 const ETC_ICON = '🧩';
+// 내부 분류명(자동분류 스크립트가 붙인 밑줄 표기)을 화면에 보여줄 자연스러운 이름으로 바꾼다.
+// unitId/아이콘 매칭 등 내부 로직은 원래 category 값을 그대로 쓰고, label(화면 표시용)만 바꾼다.
+const FRIENDLY_LABELS = {
+  핵심표현_문법: '핵심 표현',
+  사물_도구: '사물·도구',
+  교통_장소: '교통·장소',
+  자연_날씨: '자연·날씨',
+  가족_사람: '가족·사람',
+  취미_예술: '취미·예술',
+};
 const LEVEL_NAMES = { Lv1: '새싹 단계', Lv2: '새싹 단계 완성', Lv3: '도약 단계', Lv4: '도약 단계 완성' };
 const MIN_UNIT_SIZE = 8;
 // 핵심표현/대명사류는 늘 먼저 배우는 게 자연스러워 우선순위를 준다
@@ -52,7 +62,7 @@ for (const level of levels) {
   const unitList = [];
   qualifying.forEach(({ category, list }, i) => {
     const unitId = `${level}-${category}`;
-    unitsMeta[unitId] = { id: unitId, level, label: category, icon: ICONS[category] || ETC_ICON, wordCount: list.length };
+    unitsMeta[unitId] = { id: unitId, level, label: FRIENDLY_LABELS[category] || category, icon: ICONS[category] || ETC_ICON, wordCount: list.length };
     unitList.push({ unitId, words: list.sort((a, b) => a.no - b.no) });
   });
   if (etc.length > 0) {
